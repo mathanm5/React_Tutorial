@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Apple from './Components/Apple';
+import Car from './Components/Car';
+import Garage from './Components/Garage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Apple/>
+    <Garage/>
   </React.StrictMode>
 );
 

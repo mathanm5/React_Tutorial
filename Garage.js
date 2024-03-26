@@ -1,11 +1,12 @@
 import Car from "./Car";
-import App from "../App";
+
 function Garage(){
+    //const brand = 'Bentely';
+    const carInfo = {brand:"Ferrari", color:"Red"}
     return(
         <>
-        <h1>Who is King!</h1>
-        <Car/>
-        <App/>
+        {/*<Car brand={brand} color={'Black'}>*/}
+        <Car carInfo={carInfo}/>
         </>
     );
 }
