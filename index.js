@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 //import App from './App'
-
-import Car from './Components/Car';
+import Scooter from './Components/Scooter';
 //import FavoriteColor from './Components/FavoriteColor';
 
 
@@ -12,7 +11,7 @@ import Car from './Components/Car';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Car/>
+    <Scooter/>
   </React.StrictMode>
 );
 
