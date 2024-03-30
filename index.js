@@ -5,12 +5,13 @@ import reportWebVitals from './reportWebVitals';
 import Apple from './Components/Apple';
 import Car from './Components/Car';
 import Garage from './Components/Garage';
+import Header from './Components/Header';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Garage/>
+    <Header/>
   </React.StrictMode>
 );
 
