@@ -2,16 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Apple from './Components/Apple';
+//import App from './App'
+
 import Car from './Components/Car';
-import Garage from './Components/Garage';
-import Header from './Components/Header';
+//import FavoriteColor from './Components/FavoriteColor';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header/>
+    <Car/>
   </React.StrictMode>
 );
 
